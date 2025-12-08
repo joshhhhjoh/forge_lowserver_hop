@@ -1,6 +1,5 @@
 local Http = game:GetService("HttpService")
-local WEBHOOK
-
+local WEBHOOK = _G.WEBHOOK
 Http:PostAsync(
     WEBHOOK,
     Http:JSONEncode({ content = "Teleporting to JobId: " .. Server.id }),
