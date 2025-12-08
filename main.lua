@@ -2,8 +2,6 @@ local Http = game:GetService("HttpService")
 local TPS = game:GetService("TeleportService")
 local Api = "https://games.roblox.com/v1/games/"
 
-local _G.WEBHOOK = script.Parent.Parent.TextBox.Text
-
 local _place = 129009554587176
 local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
 function ListServers(cursor)
