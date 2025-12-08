@@ -1,4 +1,5 @@
 local Http = game:GetService("HttpService")
+local WEBHOOK
 
 Http:PostAsync(
     WEBHOOK,
